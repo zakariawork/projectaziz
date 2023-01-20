@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/order.css">
+    <title>Document</title>
+</head>
+<body>
+    <form name="tblform"  action="/sendfood.php" method="post">
+        <table width="80%"  id="alignment" >
+        <tr>
+        <th>Food Item</th>
+        <th> </th>
+        <th>Quantity</th>
+        </tr>
+        <tr> 
+        <td>Mixmax:</td> 
+        <td>
+        <select id="item1">
+        <option value="1">--Select Item--</option> 
+        <option value="Tacos mixmax">Tacos mixmax</option> 
+        <option value="Sandwich mixmax">Sandwich mixmax</option> 
+        <option value="fries mixmax">fries mixmax</option> 
+        <option value="makloub mixmax">makloub mixmax</option> 
+        </select>
+        </td> 
+        <td><input type="number" value="0" id="q1"></td>
+        </tr>   
+        <tr>
+        <td>chami:</td>
+        <td>
+        <select id="item2"> 
+        <option value="1">--Select Item--</option> 
+        <option value="mama chami mixmax">mama chami Tacos</option> 
+        <option value="mama chami chicken">mama chami chicken</option> 
+        <option value="mama makloub">mama makloub</option>  
+        <option value="mama chami pizza">mama chami pizza</option> 
+        </select>
+        </td>
+        <td><input  type="number" value="0" id="q2"></td> 
+        </tr> 
+        <tr>
+        <td>Parisien:</td>
+        <td><select id="item3">  
+        <option value="1">--Select Item--</option> 
+        <option value="spaghetti">spaghetti</option>  
+        <option value="Soup">Soup</option> 
+        <option value="pizza">pizza</option>
+        <option value="parisien special">parisien special</option> 
+        </select>
+        </td>
+        <td><input type="number" value="0" id="q3"></td>
+        </tr> 
+        <tr>
+        <td>Grills:</td>
+        <td><select id="item4">   
+        <option value="1">--Select Item--</option> 
+        <option value="meat grilled">meat grilled</option>   
+        <option value="meat and veggies">meat and veggies</option> 
+        <option value="meat and fries">meat and fries</option> 
+        <option value="spicy meat">spicy meat</option>  
+        </select>
+        </td>
+        <td><input type="number" value="0" id="q4"></td>
+        </tr>
+        <tr>
+        <td>Chinese:</td>
+        <td><select id="item3">  
+        <option value="1">--Select Item--</option> 
+        <option value="rice">rice</option>  
+        <option value="ramen">ramen</option> 
+        <option value="chili meat">chili</option>
+        <option value="sushi">sushi</option> 
+        </select>
+        </td>
+        <td><input type="number" value="0" id="q5"></td>
+        </tr>  
+        <tr>
+        <td></td> 
+        <td></td> 
+        <a id="ord" href="address.html">Order</a>
+        </tr>
+        </table>
+        </form>
+</body>
+</html>
